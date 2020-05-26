@@ -1,0 +1,124 @@
+/* Navbar */
+nav .container-lg {
+    background-color: honeydew;
+    border-bottom: solid 1px teal;
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-light .navbar-brand {
+    background-color:teal;
+    padding: 13px 20px;
+    font-family: 'Playfair Display', serif;
+    color: honeydew;
+}
+
+.navlink {
+    color: rgb(82, 82, 82);
+}
+li { 
+    border-right: solid 1px rgb(141, 141, 141);
+}
+li:last-child {
+    border-right: 0px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .container-lg, 
+    .navbar-brand {
+        display: block;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 1em;
+    }
+    li {
+        padding-right: .75em;
+        padding-left: .75em;
+    }
+}
+
+/* Main */
+
+.container {
+    padding: 2em;
+    background-color: honeydew;
+    max-width: 768px;
+    margin-right: 29em;
+    border: solid 2px lightgrey;
+}
+header {
+    margin-bottom: 2em;
+    font-family: 'Playfair Display', serif;
+    color: teal;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-image: url(https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    padding-top: 2em;
+    padding-bottom: 32px;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    font-size: 1.25rem;
+    color: honeydew;
+    border-top: solid 5px teal;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        margin: .75em;
+        max-width: 95%;
+    }
+}
+
+
+/*Form Button*/
+.btn-primary.custom-btn {
+    background-color: teal !important;
+}
+
+/*Portfolio cards*/
+.card {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 50px;
+}
+.card-body{
+    padding: 0;
+}
+
+.btn-block.custom-btn{
+    position: absolute;
+    bottom: 5%;
+    border-radius: 0 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: teal;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.card-img {
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
