@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjm093/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Christopher Marti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisjm093/Portfolio/issues"
+  },
+  "homepage": "https://github.com/chrisjm093/Portfolio#readme"
+}
