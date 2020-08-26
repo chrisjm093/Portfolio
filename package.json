@@ -1,26 +1,32 @@
 {
-  "name": "portfolio",
+  "name": "reactportfolio",
   "version": "1.0.0",
-  "description": "Personal portfolio",
-  "main": "index.js",
+  "description": "Personal portfolio ",
+  "main": "server.js",
   "dependencies": {
-    "handlebars": "^4.7.6"
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "start:prod": "node server.js",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrisjm093/Portfolio.git"
-  },
-  "keywords": [
-    "portfolio"
-  ],
-  "author": "Christopher Marti",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrisjm093/Portfolio/issues"
-  },
-  "homepage": "https://github.com/chrisjm093/Portfolio#readme"
+  "author": "Christoper Marti",
+  "license": "ISC"
 }

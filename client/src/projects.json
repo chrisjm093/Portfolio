@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Note Taker",
+    "link": "https://my-express-note-taker.herokuapp.com/",
+    "image": "/NoteTaker.jpg"
+  },
+  {
+    "name": "MyWeather",
+    "link": "https://chrisjm093.github.io/Weather-App/",
+    "image": "/MyWeatherss.jpg"
+  },
+  {
+    "name": "InMyCity Web App",
+    "link": "https://csipe24.github.io/LocalEventPlanner-w-Weather/",
+    "image": "/InMyCityss.jpg"
+  },
+  {
+    "name": "Day Scheduler",
+    "link": "https://chrisjm093.github.io/Day-Scheduler-App/",
+    "image": "/day-schedulerss.jpg"
+  },
+  {
+    "name": "Burger Logger",
+    "link": "https://da-burger-logger.herokuapp.com/",
+    "image": "/BurgerLogger.jpg"
+  },
+  {
+    "name": "Med-Handoff",
+    "link": "https://uwproject2bootcamp.herokuapp.com/",
+    "image": "/Corner_red.png"
+  }
+]

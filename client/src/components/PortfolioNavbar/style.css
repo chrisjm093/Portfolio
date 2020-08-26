@@ -1,0 +1,48 @@
+nav .container-lg {
+  background-color: honeydew;
+  border-bottom: solid 1px teal;
+}
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-light .navbar-brand {
+  background-color:teal;
+  padding: 13px 20px;
+  font-family: 'Playfair Display', serif;
+  color: honeydew;
+}
+
+.navlink {
+  color: rgb(82, 82, 82);
+}
+li { 
+  border-right: solid 1px rgb(141, 141, 141);
+}
+li:last-child {
+  border-right: 0px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-light .container-lg, 
+  .navbar-brand {
+      display: block;
+  }
+  .navbar {
+      padding: 0;
+  }
+  .navbar-brand {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+  }
+  .navbar-nav {
+      flex-direction: row;
+      justify-content: center;
+      padding-left: 1em;
+  }
+  li {
+      padding-right: .75em;
+      padding-left: .75em;
+  }
+}
