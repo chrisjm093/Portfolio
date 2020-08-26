@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3001;
+const routes = require("./routes")
 
 //Middleware defined
 app.use(express.urlencoded({extended: true}));
@@ -11,13 +12,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-app.get('/*', function(req,res) {
-  res.sendFile(path.join(__dirname, './client/public/index.html'), function(err){
-    if (err) {
-      res.status(500).send(err)
-    }
-  })
-})
+app.use(routes);
 
 //Start the server
 app.listen(PORT, function() {
