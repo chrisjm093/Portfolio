@@ -18,10 +18,10 @@ nav .container-lg {
 .navlink {
   color: rgb(82, 82, 82);
 }
-li { 
+a { 
   border-right: solid 1px rgb(141, 141, 141);
 }
-li:last-child {
+a:last-child {
   border-right: 0px;
 }
 
@@ -43,8 +43,8 @@ li:last-child {
       justify-content: center;
       padding-left: 1em;
   }
-  li {
-      padding-right: .75em;
-      padding-left: .75em;
+  a {
+      padding-right: .75em !important;
+      padding-left: .75em !important;
   }
 }
