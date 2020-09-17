@@ -6,4 +6,9 @@ footer {
   border-top: solid 5px teal;
   padding-top: 40px;
   padding-bottom: 40px;
+  position: absolute;
+  
+  width: 100%;
 }
+
+

@@ -5,7 +5,6 @@ import "./style.css";
 import projects from "../projects.json"
 
 function Portfolio(){
- console.log(projects)
  const evenArray = [];
  const oddArray = [];
 
@@ -16,8 +15,6 @@ function Portfolio(){
       oddArray.push(projects[i])
     }
  }
- console.log(evenArray)
- console.log(oddArray)
   return(
       <Container>
         <Row>

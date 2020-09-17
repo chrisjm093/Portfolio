@@ -7,7 +7,7 @@ function AboutMe(){
 
   return(
     <div>
-      <Container>
+      <Container className="aboutMeContainer">
           <Row>
               <Col>
                   <header>

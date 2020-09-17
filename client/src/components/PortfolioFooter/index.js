@@ -3,9 +3,13 @@ import "./style.css"
 
 function PortfolioFooter() {
   return(
-    <footer>
-        &copy; Christopher Marti
-    </footer>
+    <div className="d-flex flex-column">
+      <footer className="footer">
+        
+          &copy; Christopher Marti
+
+      </footer>
+    </div>
   )
 }
 export default PortfolioFooter;

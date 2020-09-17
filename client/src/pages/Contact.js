@@ -34,7 +34,7 @@ function Contact() {
     });
   };
   return(
-      <Container>
+      <Container className="contactContainer">
         <Row>
           <Col lg="12">
             <h1>Contact</h1>

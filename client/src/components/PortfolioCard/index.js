@@ -4,7 +4,7 @@ import "./style.css"
 
 
 function PortfolioCard(props) {
-console.log(props)
+
   return( 
       <Col sm="6">
         <Card>
