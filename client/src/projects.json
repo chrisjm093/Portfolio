@@ -10,9 +10,9 @@
     "image": "/MyWeatherss.jpg"
   },
   {
-    "name": "InMyCity Web App",
-    "link": "https://csipe24.github.io/LocalEventPlanner-w-Weather/",
-    "image": "/InMyCityss.jpg"
+    "name": "The Nomad",
+    "link": "https://the-nomad.herokuapp.com/",
+    "image": "/theNomad.png"
   },
   {
     "name": "Day Scheduler",
