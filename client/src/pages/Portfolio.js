@@ -16,7 +16,7 @@ function Portfolio(){
     }
  }
   return(
-      <Container>
+      <Container className="fade-in">
         <Row>
           <Col>
             <header>

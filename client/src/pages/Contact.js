@@ -34,7 +34,7 @@ function Contact() {
     });
   };
   return(
-      <Container className="contactContainer">
+      <Container className="contactContainer fade-in">
         <Row>
           <Col lg="12">
             <h1>Contact</h1>

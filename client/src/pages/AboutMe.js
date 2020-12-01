@@ -6,7 +6,7 @@ import BioPic from "../images/chrisbiopic.JPG"
 function AboutMe(){
 
   return(
-    <div>
+    <div className="fade-in">
       <Container className="aboutMeContainer">
           <Row>
               <Col>
